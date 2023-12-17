@@ -32,7 +32,7 @@ const HelloButton = () => {
   const [buttonText, setButtonText] = useState("Hello");
 
   const handleMouseEnter = () => {
-    setButtonText("Click to learn about me.");
+    setButtonText("Click me!");
   };
 
   const handleMouseLeave = () => {

@@ -1,6 +1,8 @@
 import "./App.css";
 import React from "react";
-import HelloButton from "./components/initiate/HelloButton";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import HelloButton from "./components/initiate/HelloButton.jsx";
 
 function App() {
   return <HelloButton />;
